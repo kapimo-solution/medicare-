@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: "Inter", sans-serif;
+
+  --color-background: hsl(0 0% 100%);
+  --color-foreground: hsl(0 0% 0%);
+
+  --color-primary: hsl(211 100% 50%); /* #007AFF */
+  --color-primary-foreground: hsl(0 0% 100%);
+
+  --color-accent: hsl(227 77% 12%); /* #071135 - Dark Navy */
+  --color-accent-foreground: hsl(0 0% 100%);
+
+  --color-muted: hsl(0 0% 96%);
+  --color-muted-foreground: hsl(0 0% 45%);
+
+  --color-border: hsl(0 0% 90%);
+  --color-input: hsl(0 0% 90%);
+  
+  --radius-sm: 0px;
+  --radius-md: 2px;
+  --radius-lg: 4px;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}

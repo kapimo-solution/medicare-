@@ -1,0 +1,105 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Inter",
+      "role": "body"
+    },
+    {
+      "family": "Arial",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#007AFF",
+    "accent": "#071135",
+    "background": "#FFFFFF",
+    "textPrimary": "#000000",
+    "link": "#071135"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Inter",
+      "heading": "Inter"
+    },
+    "fontStacks": {
+      "heading": [
+        "Inter",
+        "sans-serif"
+      ],
+      "body": [
+        "Inter",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Inter",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "40px",
+      "h2": "46px",
+      "body": "16px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "2px"
+  },
+  "components": {
+    "input": {
+      "borderColor": "#CCCCCC",
+      "borderRadius": "2px"
+    },
+    "buttonPrimary": {
+      "background": "#666666",
+      "textColor": "#4D4D4D",
+      "borderRadius": "0px",
+      "shadow": "none"
+    },
+    "buttonSecondary": {
+      "background": "#121212",
+      "textColor": "#FFFFFF",
+      "borderRadius": "0px",
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "File saved at: attached_assets/logo.svg",
+    "favicon": "File saved at: attached_assets/favicon.png",
+    "ogImage": "http://themedicube.com.sg/cdn/shop/files/medicube_logo_1_fdb9208d-50c8-4f27-a959-e6aa1d1cd062.png?v=1652172128"
+  },
+  "__framework_hints": [],
+  "__llm_logo_reasoning": {
+    "selectedIndex": 0,
+    "reasoning": "Logo #0 matches the brand name 'MEDICUBE SG' and is located in the header, linking to the homepage, making it the most likely candidate for the main brand logo.",
+    "confidence": 0.95
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 0,
+      "text": "Buy >",
+      "reasoning": "Button #0 ('Buy >') has a neutral background color (#666666) but is the only button with action-oriented text. Although it lacks a vibrant color, it is the only clear call-to-action present."
+    },
+    "secondary": {
+      "index": 1,
+      "text": "Skip to content",
+      "reasoning": "Button #1 ('Skip to content') has a dark background color (#121212) and is less prominent, serving as a secondary action. It is also from a different color group than the primary button."
+    },
+    "confidence": 0.85
+  },
+  "personality": {
+    "tone": "professional",
+    "energy": "medium",
+    "targetAudience": "health-conscious consumers"
+  },
+  "designSystem": {
+    "framework": "unknown",
+    "componentLibrary": null
+  },
+  "confidence": {
+    "buttons": 0.85,
+    "colors": 0.9,
+    "overall": 0.875
+  }
+}
